@@ -8,7 +8,7 @@ public class MyAnnotationExample {
 	MyAnnotationExample() {
 		Servlet ann = this.getClass().getAnnotation(Servlet.class);
 		String name = ann.name();
-		String url = ann.name();
+		String url = ann.url();
 		String className = this.getClass().getName();
 		createXML(name, url, className);
 	}
@@ -27,12 +27,12 @@ public class MyAnnotationExample {
 					+ "\t\"http://java.sun.com/dtd/web-app_2_3.dtd\">"
 					+ "<web-app>\r\n");
 			fw.write("\t<servlet>\n");
-			fw.write("\t\t<servlet-name>\n\t\t" + name + "\n\t</servlet-name>\n");
-			fw.write("\t\t<servlet-class>\n\t\t" + className + "\n\t</servlet-class>\n");
+			fw.write("\t\t<servlet-name>" + name + "</servlet-name>\n");
+			fw.write("\t\t<servlet-class>" + className + "</servlet-class>\n");
 			fw.write("\t</servlet>\n");
 			fw.write("\t<servlet-mapping>\n");
-			fw.write("\t\t<servlet-name>\n\t\t" + name + "\n\t</servlet-name>\n");
-			fw.write("\t\t<url-pattern>\n\t\t" + url + "\n\t</url-pattern>\n");
+			fw.write("\t\t<servlet-name>" + name + "</servlet-name>\n");
+			fw.write("\t\t<url-pattern>" + url + "</url-pattern>\n");
 			fw.write("\t</servlet-mapping>\n");
 			fw.write("</web-app>");
 			fw.close();
