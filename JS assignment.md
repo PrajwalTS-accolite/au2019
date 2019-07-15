@@ -81,7 +81,7 @@
    ```javascript
    let f1 = module.getX;
    let f2 = f1.bind(module);
-   console.log(f2)
+   console.log(f2())
    ```
 
 5. The following snippet throws an error. Why?
