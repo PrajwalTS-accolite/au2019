@@ -8,6 +8,6 @@
 	
 	Repo : https://github.com/Sharpyyy/MY_PROJECT
 
-2. ![2nd-ans](https://github.com/PrajwalTS-accolite/au2019/blob/10-July/Git%20Assignment/Images/2.png?raw=true)
-3. ![3rd ans](https://github.com/PrajwalTS-accolite/au2019/blob/10-July/Git%20Assignment/Images/3.png?raw=true)
+2. ![2nd-ans](https://github.com/PrajwalTS-accolite/au2019/blob/10july-am/Git%20Assignment/Images/2.png?raw=true)
+3. ![3rd ans](https://github.com/PrajwalTS-accolite/au2019/blob/10july-am/Git%20Assignment/Images/3.png?raw=true)
 
