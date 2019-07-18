@@ -1,4 +1,4 @@
-# Git assignment
+# JS assignment
 
 1. Refactor code snippet to return the following result
 
