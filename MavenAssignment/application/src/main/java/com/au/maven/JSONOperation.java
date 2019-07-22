@@ -1,5 +1,6 @@
-package com.au.application;
+package com.au.maven;
 
+import com.au.maven.application.Employee;
 import com.au.utility.ObjectToJSON;
 
 public class JSONOperation {

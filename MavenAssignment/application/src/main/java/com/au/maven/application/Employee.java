@@ -1,4 +1,4 @@
-package com.au.application;
+package com.au.maven.application;
 
 public class Employee {
 	

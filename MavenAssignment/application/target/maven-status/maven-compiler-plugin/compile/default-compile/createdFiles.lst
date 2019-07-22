@@ -1,2 +1,2 @@
-com\au\application\Employee.class
-com\au\application\JSONOperation.class
+com\au\maven\application\Employee.class
+com\au\maven\JSONOperation.class
