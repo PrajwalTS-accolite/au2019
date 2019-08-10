@@ -1,0 +1,14 @@
+<div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let x of dept">
+                    <th (click)="displayDetails(x);" scope="row">{{x.name}}</th>
+                </tr>
+            </tbody>
+        </table>
+        </div>

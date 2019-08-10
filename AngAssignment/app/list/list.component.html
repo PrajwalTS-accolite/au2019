@@ -1,0 +1,16 @@
+<div class="container">
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of emp">
+            <th (click)="displayDetails(x);" scope="row">{{x.firstName}}</th>
+            <th><button (click)="deleteElem(x)">Delete</button></th>
+        </tr>
+    </tbody>
+</table>
+</div>
